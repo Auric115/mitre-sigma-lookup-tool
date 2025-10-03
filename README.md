@@ -12,23 +12,33 @@ Through this project, you will interact with ATT&CK data, extract useful informa
 
 This project will also include suggestions to improve, customize, and expand its features. After completing the project, consider implementing one or more of these suggestions for further learning and to make this project really standout on a resume.
 ## Project Specifications
+
 Input: an ATT&CK technique ID (`T1564`) or technique name.
+
 Output:
-	Basic technique info (name, description)
-	ATT&CK mitigations related to that technique
-	Sigma rules that mention the technique ID
+	- Basic technique info (name, description)
+	- ATT&CK mitigations related to that technique
+	- Sigma rules that mention the technique ID
 
 ### Prerequisites
 Beginner Python skills
+
 Basic Linux skills, including familiarity with a command line text editor (e.g. `vim`) 
+
 Basic Git/GitHub skills
+
 Basic understanding of MITRE ATT&CK and Sigma, like their role and usefulness in cybersecurity
+
 ### Dependencies
 Python 3.9+
+
 A Linux environment with Internet access
 	Note this project can be done in other systems, however all instructions are intended for Linux and may need to be modified for other environments.
+	
 ## STAGE 0 - Setup Environment
+
 The setup process has been automated with `setup.sh`, or you can follow these steps:
+
 ### 1. Create a virtual environment and activate it
 ```bash
 python -m venv venv
