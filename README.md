@@ -33,7 +33,8 @@ Basic understanding of MITRE ATT&CK and Sigma, like their role and usefulness in
 Python 3.9+
 
 A Linux environment with Internet access
-	Note this project can be done in other systems, however all instructions are intended for Linux and may need to be modified for other environments.
+
+*Note this project can be done in other systems, however all instructions are intended for Linux and may need to be modified for other environments.*
 	
 ## STAGE 0 - Setup Environment
 
